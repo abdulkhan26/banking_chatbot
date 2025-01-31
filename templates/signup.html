@@ -1,4 +1,4 @@
-<!-- <!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <div class="auth-container">
         <h2>Sign Up</h2>
 
-        <!-- Display flash messages 
+          
         {% with messages = get_flashed_messages() %}
           {% if messages %}
             {% for message in messages %}
@@ -18,7 +18,7 @@
           {% endif %}
         {% endwith %}
 
-        <!-- Display error messages 
+        <!-- Display error messages -->
         {% if error %}
           <div class="error-message">{{ error }}</div>
         {% endif %}
@@ -33,149 +33,4 @@
         <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
     </div>
 </body>
-</html>  -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #4CAF50, #1a73e8);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .auth-container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            color: black;
-            width: 350px;
-        }
-
-        h2 {
-            color: #007bff;
-            margin-bottom: 20px;
-        }
-
-        input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #007bff;
-            border-radius: 5px;
-        }
-
-        button {
-            background-color: #28a745;
-            color: white;
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-            width: 100%;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #218838;
-        }
-
-        .flash-message {
-            background-color: #ff9800;
-            padding: 10px;
-            color: white;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-
-        .error-message {
-            background-color: #f44336;
-            padding: 10px;
-            color: white;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-
-        .popup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            color: black;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            z-index: 1000;
-        }
-
-        .popup button {
-            margin-top: 10px;
-            background-color: #007bff;
-            color: white;
-        }
-    </style>
-    <script>
-        function signup(event) {
-            event.preventDefault(); // Prevent form submission
-
-            // Show popup message
-            document.getElementById("popup").style.display = "block";
-        }
-
-        function closePopup() {
-            document.getElementById("popup").style.display = "none";
-            window.location.href = "{{ url_for('login') }}"; // Redirect to home page after successful sign-up
-        }
-    </script>
-</head>
-<body>
-    <div class="auth-container">
-        <h2>Sign Up</h2>
-
-        <!-- Display flash messages -->
-        {% with messages = get_flashed_messages() %}
-          {% if messages %}
-            {% for message in messages %}
-              <div class="flash-message">{{ message }}</div>
-            {% endfor %}
-          {% endif %}
-        {% endwith %}
-
-        <!-- Display error messages -->
-        {% if error %}
-          <div class="error-message">{{ error }}</div>
-        {% endif %}
-
-        <!-- Sign-up form -->
-        <form onsubmit="signup(event)">
-            <input type="email" name="email" placeholder="Email" value="{{ request.form.get('email', '') }}" required>
-            <input type="text" name="username" placeholder="Username" value="{{ request.form.get('username', '') }}" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="text" name="account_number" placeholder="Account Number" value="{{ request.form.get('account_number', '') }}" required>
-            <button type="submit">Sign Up</button>
-        </form>
-        
-        <!-- Popup message after successful sign-up -->
-        <div id="popup" class="popup">
-            <p>Successfully created the account!</p>
-            <button onclick="closePopup()">OK</button>
-        </div>
-
-        <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
-    </div>
-</body>
-</html>
+</html> 
