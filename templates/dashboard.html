@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Company Logo">
+            <h1>Welcome, {{ username }}</h1>
+            <p>Your trusted partner for all banking needs.</p>
+            <!-- Promotional Content -->
+            <div class="promo">
+                <h2>Exclusive Offer!</h2>
+                <p>Get a personal loan at just 5% interest rate.</p>
+                <button onclick="learnMore()">Learn More</button>
+            </div>
+        </div>
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <!-- Chatbot Interface -->
+            <div class="chatbot-container">
+                <div id="chatbox">
+                    <!-- Chat messages will appear here -->
+                </div>
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function sendMessage() {
+            var input = document.getElementById("userInput").value;
+            var chatbox = document.getElementById("chatbox");
+
+            // Log the user input for debugging
+            console.log("User input:", input);
+
+            // Append user message on the right
+            chatbox.innerHTML += "<div class='user-message'>" + input + "</div>";
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({message: input})
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Append bot response on the left
+                chatbox.innerHTML += "<div class='bot-message'>" + data.response + "</div>";
+                document.getElementById("userInput").value = '';
+            });
+        }
+
+        function learnMore() {
+            alert("Stay tuned for more information on our exclusive loan offers!");
+        }
+    </script>
+</body>
+</html>
