@@ -10,3 +10,592 @@
 2025-01-31 04:49:00: Credit Rs.54.88
 2025-01-31 04:49:00: Debit Rs.348.99 to 100006
 
+[2025-02-01 13:15:54] User: hello
+[2025-02-01 13:15:54] Bot: Hello! How can I help you today? Options: balance, transaction history, debit, change pin, update details, loan details.
+
+[2025-02-01 13:15:59] User: balance
+[2025-02-01 13:15:59] Bot: Your current balance is Rs.4700.00
+
+[2025-02-01 13:16:05] User: transaction history
+[2025-02-01 13:16:05] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-01 13:16:18] User: change pin
+[2025-02-01 13:16:18] Bot: Please enter your current PIN.
+
+[2025-02-01 13:16:35] User: 8973
+[2025-02-01 13:16:35] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-01 13:16:46] User: 4321
+[2025-02-01 13:16:46] Bot: Please enter your new PIN.
+
+[2025-02-01 13:16:50] User: 1234
+[2025-02-01 13:16:50] Bot: PIN changed successfully.
+
+[2025-02-01 13:16:55] User: update details
+[2025-02-01 13:16:55] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-01 13:17:01] User: username
+[2025-02-01 13:17:01] Bot: Enter new username:
+
+[2025-02-01 13:17:08] User: user100
+[2025-02-01 13:17:08] Bot: Username updated successfully.
+
+[2025-02-01 13:17:19] User: update details
+[2025-02-01 13:17:19] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-01 13:17:27] User: username
+[2025-02-01 13:17:27] Bot: Enter new username:
+
+[2025-02-01 13:17:38] User: user1
+[2025-02-01 13:17:38] Bot: Username updated successfully.
+
+[2025-02-01 13:17:47] User: load details
+[2025-02-01 13:17:47] Bot: I didn't understand that. Available commands: balance, transaction history, debit, change pin, update details, loan details.
+
+[2025-02-01 13:22:05] User: hello
+[2025-02-01 13:22:05] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:22:15] User: 1
+[2025-02-01 13:22:15] Bot: Your current balance is Rs.4700.00
+
+[2025-02-01 13:22:18] User: 2
+[2025-02-01 13:22:18] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-01 13:25:59] User: hello
+[2025-02-01 13:25:59] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:26:16] User: hello
+[2025-02-01 13:26:16] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:26:55] User: hello
+[2025-02-01 13:26:55] Bot: I didn't understand that. Please choose an option:
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:27:25] User: hello
+[2025-02-01 13:27:25] Bot: I didn't understand that. Please choose an option:
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:29:15] User: hello
+[2025-02-01 13:29:15] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:29:45] User: hello
+[2025-02-01 13:29:45] Bot: I didn't understand that. Please choose an option:
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 13:29:49] User: 3
+[2025-02-01 13:29:49] Bot: Please enter the amount to debit and the recipient's account number (e.g., '500 123456789').
+
+[2025-02-01 13:30:11] User: 500 100002
+[2025-02-01 13:30:11] Bot: Invalid account number.
+
+[2025-02-01 13:30:17] User: 4
+[2025-02-01 13:30:17] Bot: Please enter your current PIN.
+
+[2025-02-01 13:30:21] User: 1234
+[2025-02-01 13:30:21] Bot: Please enter your new PIN.
+
+[2025-02-01 13:30:24] User: 4321
+[2025-02-01 13:30:24] Bot: PIN changed successfully.
+
+[2025-02-01 14:01:46] User: hello
+[2025-02-01 14:01:46] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 14:02:05] User: hello
+[2025-02-01 14:02:05] Bot: I didn't understand that. Please choose an option:
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 14:02:12] User: 3
+[2025-02-01 14:02:12] Bot: Please enter the amount to debit and the recipient's account number (e.g., '500 123456789').
+
+[2025-02-01 14:09:57] User: hello
+[2025-02-01 14:09:57] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-01 14:10:08] User: 1
+[2025-02-01 14:10:08] Bot: Your current balance is Rs.4700.00
+
+[2025-02-01 14:10:11] User: 2
+[2025-02-01 14:10:11] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-01 18:12:37] User: 6
+[2025-02-01 18:12:37] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-01 18:34:38] User: hello
+[2025-02-01 18:34:38] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-01 18:35:34] User: hello
+[2025-02-01 18:35:34] Bot: Hello! How can I help you today?
+1️⃣ Balance
+2️⃣ Transaction History
+3️⃣ Debit
+4️⃣ Change PIN
+5️⃣ Update Details
+6️⃣ Loan Details
+
+
+[2025-02-01 18:35:37] User: 1
+[2025-02-01 18:35:37] Bot: Your current balance is Rs.4700.00
+
+[2025-02-01 18:39:44] User: hello
+[2025-02-01 18:39:44] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-01 18:39:47] User: 2
+[2025-02-01 18:39:47] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-01 18:49:14] User: hello
+[2025-02-01 18:49:14] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-01 18:49:16] User: 1
+[2025-02-01 18:49:16] Bot: Your current balance is Rs.4700.00
+
+[2025-02-01 18:49:18] User: 2
+[2025-02-01 18:49:18] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-01 18:49:21] User: 3
+[2025-02-01 18:49:21] Bot: Please enter the amount to debit and the recipient's account number (space-separated).
+
+[2025-02-01 18:49:31] User: 4
+[2025-02-01 18:49:31] Bot: Invalid format. Please enter: AMOUNT ACCOUNT_NUMBER (e.g., '500 123456789')
+
+[2025-02-01 18:49:32] User: 
+[2025-02-01 18:49:32] Bot: Sorry, I didn't catch that. Can you please type your message again?
+
+[2025-02-01 18:49:37] User: 4
+[2025-02-01 18:49:37] Bot: Please enter your current PIN.
+
+[2025-02-01 18:49:42] User: 1234
+[2025-02-01 18:49:42] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-01 18:49:47] User: 4321
+[2025-02-01 18:49:47] Bot: Please enter your new PIN.
+
+[2025-02-01 18:49:52] User: 1234
+[2025-02-01 18:49:52] Bot: PIN changed successfully.
+
+[2025-02-01 18:49:56] User: 5
+[2025-02-01 18:49:56] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-01 18:50:02] User: email
+[2025-02-01 18:50:02] Bot: Enter new email:
+
+[2025-02-01 18:50:12] User: user1@hotmail.com
+[2025-02-01 18:50:12] Bot: Email updated successfully.
+
+[2025-02-01 18:50:20] User: 6
+[2025-02-01 18:50:20] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-02 12:37:18] User: hello
+[2025-02-02 12:37:18] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 12:37:28] User: hello
+[2025-02-02 12:37:28] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 12:38:07] User: hello
+[2025-02-02 12:38:07] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 12:39:21] User: 2
+[2025-02-02 12:39:21] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-02 12:40:01] User: hello
+[2025-02-02 12:40:01] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 14:50:20] User: hello
+[2025-02-02 14:50:20] Bot: ⚠️ Unexpected state. Returning to the main menu.
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 14:50:26] User: 1
+[2025-02-02 14:50:26] Bot: Your current balance is Rs.4200.00
+
+[2025-02-02 14:50:29] User: 2
+[2025-02-02 14:50:29] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-02 14:50:33] User: 4
+[2025-02-02 14:50:33] Bot: Please enter your current PIN.
+
+[2025-02-02 14:50:36] User: 4321
+[2025-02-02 14:50:36] Bot: Please enter your new PIN.
+
+[2025-02-02 14:50:41] User: 1234
+[2025-02-02 14:50:41] Bot: PIN changed successfully.
+
+[2025-02-02 14:50:45] User: 5
+[2025-02-02 14:50:45] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-02 14:50:48] User: email
+[2025-02-02 14:50:48] Bot: Enter new email:
+
+[2025-02-02 14:50:58] User: user1@gmail.com
+[2025-02-02 14:50:58] Bot: Email updated successfully.
+
+[2025-02-02 14:51:07] User: 6
+[2025-02-02 14:51:07] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-02 14:51:12] User: debit
+[2025-02-02 14:51:12] Bot: Please enter the amount to debit.
+
+[2025-02-02 14:51:16] User: 500
+[2025-02-02 14:51:16] Bot: Please enter the recipient's account number.
+
+[2025-02-02 14:51:38] User: 1000002
+[2025-02-02 14:51:38] Bot: Debit transaction successful.
+
+[2025-02-02 14:51:50] User: balance
+[2025-02-02 14:51:50] Bot: Your current balance is Rs.3700.00
+
+[2025-02-02 21:00:48] User: hello
+[2025-02-02 21:00:48] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-02 21:00:51] User: 1
+[2025-02-02 21:00:51] Bot: Your current balance is Rs.3700.00
+
+[2025-02-02 21:00:54] User: 2
+[2025-02-02 21:00:54] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-02 21:00:56] User: 3
+[2025-02-02 21:00:56] Bot: Please enter the amount to debit.
+
+[2025-02-02 21:01:00] User: 400
+[2025-02-02 21:01:00] Bot: Please enter the recipient's account number.
+
+[2025-02-02 21:01:19] User: 1000005
+[2025-02-02 21:01:19] Bot: Debit transaction successful.
+
+[2025-02-02 21:01:25] User: change pin
+[2025-02-02 21:01:25] Bot: Please enter your current PIN.
+
+[2025-02-02 21:01:32] User: 1234
+[2025-02-02 21:01:32] Bot: Please enter your new PIN.
+
+[2025-02-02 21:01:37] User: 4321
+[2025-02-02 21:01:37] Bot: PIN changed successfully.
+
+[2025-02-02 21:01:46] User: 6
+[2025-02-02 21:01:46] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-03 00:14:11] User: hello
+[2025-02-03 00:14:11] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 00:14:15] User: 1
+[2025-02-03 00:14:15] Bot: Your current balance is Rs.3300.00
+
+[2025-02-03 00:14:27] User: 2
+[2025-02-03 00:14:27] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 00:16:49] User: hello
+[2025-02-03 00:16:49] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 00:18:09] User: hello
+[2025-02-03 00:18:09] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 00:18:14] User: 6
+[2025-02-03 00:18:14] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-03 09:15:25] User: hello
+[2025-02-03 09:15:25] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 09:16:26] User: hello
+[2025-02-03 09:16:26] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 09:16:29] User: 1
+[2025-02-03 09:16:29] Bot: Your current balance is Rs.3300.00
+
+[2025-02-03 09:18:58] User: hello
+[2025-02-03 09:18:58] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 09:45:10] User: hello
+[2025-02-03 09:45:10] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 09:45:33] User: hello
+[2025-02-03 09:45:33] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 10:04:13] User: hello
+[2025-02-03 10:04:13] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 10:04:17] User: 1
+[2025-02-03 10:04:17] Bot: Your current balance is Rs.3300.00
+
+[2025-02-03 10:04:22] User: 2
+[2025-02-03 10:04:22] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 10:04:29] User: 3
+[2025-02-03 10:04:29] Bot: Please enter the amount to debit.
+
+[2025-02-03 11:21:21] User: hello
+[2025-02-03 11:21:21] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:24:07] User: hi
+[2025-02-03 11:24:07] Bot: Please start the conversation by saying 'hello'.
+
+[2025-02-03 11:24:17] User: hello
+[2025-02-03 11:24:17] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:24:27] User: 6
+[2025-02-03 11:24:27] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-03 11:24:47] User: 3
+[2025-02-03 11:24:47] Bot: Please enter the amount to debit.
+
+[2025-02-03 11:25:01] User: 1
+[2025-02-03 11:25:01] Bot: Please enter the recipient's account number.
+
+[2025-02-03 11:25:43] User: 1000007
+[2025-02-03 11:25:43] Bot: Debit transaction successful.
+
+[2025-02-03 11:26:21] User: 2
+[2025-02-03 11:26:21] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 11:26:53] User: 1
+[2025-02-03 11:26:53] Bot: Your current balance is Rs.3299.00
+
+[2025-02-03 11:27:01] User: 3
+[2025-02-03 11:27:01] Bot: Please enter the amount to debit.
+
+[2025-02-03 11:27:05] User: 9
+[2025-02-03 11:27:05] Bot: Please enter the recipient's account number.
+
+[2025-02-03 11:27:22] User: 1000007
+[2025-02-03 11:27:22] Bot: Debit transaction successful.
+
+[2025-02-03 11:27:28] User: 1
+[2025-02-03 11:27:28] Bot: Your current balance is Rs.3290.00
+
+[2025-02-03 11:27:38] User: 2
+[2025-02-03 11:27:38] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 11:27:53] User: 5
+[2025-02-03 11:27:53] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-03 11:28:07] User: email
+[2025-02-03 11:28:07] Bot: Enter new email:
+
+[2025-02-03 11:28:19] User: abc@abc.com
+[2025-02-03 11:28:19] Bot: Email updated successfully.
+
+[2025-02-03 11:46:25] User: hello
+[2025-02-03 11:46:25] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+

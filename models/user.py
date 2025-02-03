@@ -1,3 +1,5 @@
+# user.py
+
 import logging
 from database import get_db_connection
 
@@ -84,7 +86,7 @@ class User:
     def change_pin(user_id, old_pin, new_pin):
         """Changes the user's PIN after verifying the old PIN."""
         if not User.verify_pin(user_id, old_pin):
-            logging.warning("Invalid current PIN ❌")
+            logging.warning(f"Invalid current PIN for user ID {user_id}.")
             return "Invalid current PIN."
         
         conn = get_db_connection()
@@ -98,10 +100,10 @@ class User:
 
             if cursor.rowcount > 0:
                 conn.commit()
-                logging.info(f"PIN changed successfully for user ID {user_id} ✅")
+                logging.info(f"PIN changed successfully for user ID {user_id}.")
                 return "PIN changed successfully."
             else:
-                logging.warning(f"PIN change failed for user ID {user_id}. No matching record found ❌")
+                logging.warning(f"PIN change failed for user ID {user_id}. No matching record found.")
                 return "PIN change failed."
         except Exception as e:
             conn.rollback()
@@ -128,10 +130,10 @@ class User:
                 return loan_amount
             else:
                 logging.warning(f"No loan account found for user ID {user_id} ❌")
-                return "No loan account found."
+                return 0.00
         except Exception as e:
             logging.error(f"Error retrieving loan amount for user ID {user_id}: {e}")
-            return "Error retrieving loan amount."
+            return 0.00
         finally:
             cursor.close()
             conn.close()

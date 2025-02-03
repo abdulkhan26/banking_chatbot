@@ -1,0 +1,36 @@
+What is DAV Banking Services?
+DAV Banking Services provides secure online banking solutions.
+---
+How can I check my balance?
+You can check your balance via our chatbot by entering your account details.
+---
+How Can I change my pin?
+You can change your pin by resetting your pin.
+---
+How do I view my transaction history?
+Log in to your online banking account → Select "Transaction History."
+A monthly summary is also emailed to your registered address.
+---
+How long do interbank transfers take?
+Domestic transfers: Instant or within 2 hours.International transfers: 1–3 business days.
+---
+What documents are needed for a loan?
+ID proof (Passport/Driver’s License)
+Income proof (3 months’ payslips)
+Credit score (we’ll auto-check if you apply online).
+---
+Is online banking safe?
+We use 256-bit encryption, two-factor authentication (2FA), and biometric login. Never share your OTP/PIN.
+---
+My card was charged twice. What should I do?
+Contact customer support within 7 days. We’ll investigate and reverse duplicate charges.
+---
+How do I close my account?
+Submit a closure request via online banking or visit a branch. Clear all dues first.
+---
+Need More Help?
+Live Chat: Available 24/7 via the chatbot (lower-right corner).
+Email: support@davbank.com
+
+
+

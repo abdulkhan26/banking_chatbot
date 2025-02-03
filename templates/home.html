@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Services Home</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background-color: #2b2b2b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #444;
+        }
+        .banner {
+            background-color: #32CD32;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .banner h2 {
+            margin: 0 0 10px;
+        }
+        .banner p {
+            font-size: 18px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+            background-color: white;
+        }
+        .feature {
+            background-color: #f5f5f5;
+            margin: 15px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #2b2b2b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to DAV Bank</h1>
+        <p>Your trusted partner for financial growth.Banking services on your fingertips.</p>
+    </div>
+    <div class="nav">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('signup') }}">Sign Up</a>
+        <a href="{{ url_for('services') }}">Services</a>
+        <a href="{{ url_for('contact') }}">Contact Us</a>
+    </div>
+    
+    <div class="banner">
+        <h2>Experience Banking Like Never Before</h2>
+        <p>Join us for secure, fast, and reliable banking services tailored to your needs.</p>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <h3>Secure Transactions</h3>
+            <p>Your safety is our priority with top-notch security measures.</p>
+        </div>
+        <div class="feature">
+            <h3>24/7 Customer Support</h3>
+            <p>Reach out to us anytime for assistance and guidance.</p>
+        </div>
+        <div class="feature">
+            <h3>Easy Online Access</h3>
+            <p>Manage your account from anywhere with our user-friendly platform.</p>
+        </div>
+        <div class="feature">
+            <h3>Personalized Insights</h3>
+            <p>Get tailored recommendations to meet your financial goals.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 DAV Bank. All rights reserved.</p>
+    </div>
+</body>
+</html>

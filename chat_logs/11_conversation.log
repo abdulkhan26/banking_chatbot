@@ -1,0 +1,12 @@
+[2025-02-03 11:32:16] User: hello
+[2025-02-03 11:32:16] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:32:18] User: 1
+[2025-02-03 11:32:18] Bot: Your current balance is Rs.0.00
+

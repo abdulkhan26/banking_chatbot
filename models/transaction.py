@@ -1,4 +1,7 @@
+# transaction.py
+
 from database import get_db_connection
+import logging
 
 class Transaction:
     @staticmethod
@@ -12,7 +15,7 @@ class Transaction:
             ''', (user_id, amount, transaction_type, recipient_account))
             conn.commit()
         except Exception as e:
-            print(f"Error logging transaction: {e}")
+            logging.error(f"Error logging transaction: {e}")
         finally:
             cursor.close()
             conn.close()
@@ -29,5 +32,6 @@ class Transaction:
             LIMIT 10
         ''', (user_id,))
         transactions = cursor.fetchall()
+        cursor.close()
         conn.close()
         return transactions

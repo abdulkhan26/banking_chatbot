@@ -2,35 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #1a73e8);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: black;
+            width: 350px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .error-messages {
+            color: red;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="auth-container">
+    <div class="form-container">
         <h2>Sign Up</h2>
-
-          
-        {% with messages = get_flashed_messages() %}
-          {% if messages %}
-            {% for message in messages %}
-              <div class="flash-message">{{ message }}</div>
-            {% endfor %}
-          {% endif %}
-        {% endwith %}
-
-        <!-- Display error messages -->
-        {% if error %}
-          <div class="error-message">{{ error }}</div>
-        {% endif %}
-
-        <form action="{{ url_for('signup') }}" method="post">
-            <input type="email" name="email" placeholder="Email" value="{{ request.form.get('email', '') }}" required>
-            <input type="text" name="username" placeholder="Username" value="{{ request.form.get('username', '') }}" required>
+        <form method="POST" action="{{ url_for('signup') }}">
+            {% if errors %}
+                <div class="error-messages">
+                    <ul>
+                    {% for error in errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <input type="text" name="account_number" placeholder="Account Number" value="{{ request.form.get('account_number', '') }}" required>
+            <input type="text" name="account_number" placeholder="Account Number" required>
             <button type="submit">Sign Up</button>
         </form>
-        <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
     </div>
 </body>
-</html> 
+</html>

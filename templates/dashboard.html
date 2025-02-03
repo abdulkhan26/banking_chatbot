@@ -2,64 +2,420 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Banking Dashboard</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV - Banking Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            min-height: calc(100vh - 120px);
+        }
+
+        .header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 10px;
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .content h3 {
+            color: green;
+            margin: 20px 0 15px;
+        }
+
+        /* Chatbot Styles */
+        .chatbot-toggle-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .chatbox-container {
+            width: 350px;
+            height: 420px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            position: fixed;
+            right: 20px;
+            bottom: 100px;
+            border-radius: 20px;
+            overflow: hidden;
+            display: none;
+            z-index: 1000;
+        }
+
+        .chatbox-header {
+            background-color: slateblue;
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chatbox-content {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .message {
+            max-width: 80%;
+            padding: 10px 15px;
+            border-radius: 15px;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            align-self: flex-end;
+        }
+
+        .bot-message {
+            background-color: #e9ecef;
+            color: #333;
+            align-self: flex-start;
+        }
+
+        .chatbox-input {
+            padding: 15px;
+            border-top: 1px solid #ddd;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chatbox-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .chatbox-input button {
+            padding: 10px 15px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .chatbox-input button:first-of-type {
+            background-color: green; /* Green color for mic button */
+        }
+
+        /* FAQ Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2000;
+        }
+
+        .modal-content {
+            background-color: white;
+            width: 90%;
+            max-width: 500px;
+            max-height: 80vh;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .close {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .faqContent {
+        flex-grow: 1; /* Allows it to expand and take available space */
+        overflow-y: auto; /* Enables scrolling */
+        padding-right: 15px;
+        max-height: calc(100% - 50px); /* Ensures it doesn't overflow the modal */
+    }
+
+
+        /* Add scrollbar styling */
+        #faqContent::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #faqContent::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 3px;
+        }
+
+        #faqContent::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+
+        #faqContent::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+
+        .faq-item {
+            margin: 20px 0;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .faq-item h3 {
+            color: green;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+            padding:10px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <!-- Left Panel -->
-        <div class="left-panel">
-            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Company Logo">
-            <h1>Welcome, {{ username }}</h1>
-            <p>Your trusted partner for all banking needs.</p>
-            <!-- Promotional Content -->
-            <div class="promo">
-                <h2>Exclusive Offer!</h2>
-                <p>Get a personal loan at just 5% interest rate.</p>
-                <button onclick="learnMore()">Learn More</button>
-            </div>
+        <div class="header">
+            <h3>DAV Banking Services</h3>
+            <h5><span style="color:black">Chatbot Assistant</span></h5>
         </div>
-        <!-- Right Panel -->
-        <div class="right-panel">
-            <!-- Chatbot Interface -->
-            <div class="chatbot-container">
-                <div id="chatbox">
-                    <!-- Chat messages will appear here -->
-                </div>
-                <input type="text" id="userInput" placeholder="Type your message...">
-                <button onclick="sendMessage()">Send</button>
-            </div>
+
+        <div class="content">
+            <h3>Welcome to DAV's Bank Services</h3>
+            <p>At DAV Bank, we are committed to providing seamless and secure financial services tailored to your needs. Whether you want to transfer funds, check your balance, review past transactions, or apply for loans, we make banking <strong>simpler and faster</strong>.</p>
+
+           <h3><span style="color:green">Debit Transactions</span></h3>
+            <p>
+                Our bank offers <strong>quick and secure debit transactions</strong> using QR codes. Simply scan the QR code and authorize the payment through your registered mobile number. Once the transaction is complete, you will receive an <strong>instant confirmation message</strong>.
+            </p>
+
+            <h3><span style="color:green">Balance & Transaction History</span></h3>
+            <p>
+                Need to check your balance? You can view your account balance <strong>instantly</strong> via our banking portal or the chatbot. Additionally, detailed transaction history is <strong>automatically emailed</strong> to your registered email ID at regular intervals.
+            </p>
+
+            <h3><span style="color:green">Chatbot Assistance</span></h3>
+            <p>
+                Our AI-powered chatbot is here to assist you <strong>24/7</strong>. Whether you need help with transactions, account security, or service inquiries, just <strong>click the chatbot button</strong> in the lower-right corner of the screen. Our chatbot can provide balance inquiries, transaction updates, loan eligibility checks, and much more.
+            </p>
+
+            <h3><span style="color:green">Loans & Credit Services</span></h3>
+            <p>
+                DAV Bank offers <strong>personalized loan services</strong> based on your credit profile. Whether you're looking for a <strong>home loan, car loan, education loan, or personal loan</strong>, our system quickly evaluates your eligibility and offers <strong>low-interest rates</strong> with <strong>easy EMI options</strong>.
+            </p>
         </div>
     </div>
+
+    <!-- Chatbot Interface -->
+    <button class="chatbot-toggle-btn" id="toggleChat">💬</button>
+
+    <div class="chatbox-container" id="chatContainer">
+        <div class="chatbox-header">
+            DAV Assistant
+            <div>
+                <button onclick="minimizeChat()" style="background: none; border: none; color: white; padding: 5px;"><h2>-</h2></button>
+                <button onclick="closeChat()" style="background: none; border: none; color: white; padding: 5px;"><h2>x</h2></button>
+            </div>
+        </div>
+        <div class="chatbox-content" id="chatContent"></div>
+       <div class="chatbox-input">
+        <input type="text" id="userInput" placeholder="Type your message...">
+         <!-- Mic Button -->
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    </div>
+
+
+
+    <!-- FAQ Modal -->
+    <div id="faqModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Frequently Asked Questions</h2>
+            <div id="faqContent" class="faqContent"></div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3><p>©<span style="color:green">DAV</span> Banking Services. All rights reserved.</p></h3>
+        <p>
+            <a href="#" onclick="showFAQ()">FAQ</a> |
+            <a href="#">Contact Support</a> |
+            <a href="#">Security Info</a>   |
+            <a href="#">Privacy Policy</a>
+        </p>
+
+    </footer>
+
     <script>
+        // Chatbot Functionality
+        let isChatMinimized = false;
+    
+        function toggleChat() {
+            const container = document.getElementById('chatContainer');
+            const toggleBtn = document.getElementById('toggleChat');
+            container.style.display = container.style.display === 'none' ? 'flex' : 'none';
+            toggleBtn.style.display = container.style.display === 'none' ? 'block' : 'none';
+        }
+    
+        function closeChat() {
+            document.getElementById('chatContainer').style.display = 'none';
+            document.getElementById('toggleChat').style.display = 'block';
+        }
+    
+        function minimizeChat() {
+            const container = document.getElementById('chatContainer');
+            container.style.height = isChatMinimized ? '500px' : '60px';
+            isChatMinimized = !isChatMinimized;
+        }
+    
         function sendMessage() {
-            var input = document.getElementById("userInput").value;
-            var chatbox = document.getElementById("chatbox");
-
-            // Log the user input for debugging
-            console.log("User input:", input);
-
-            // Append user message on the right
-            chatbox.innerHTML += "<div class='user-message'>" + input + "</div>";
-
-            fetch('/chat', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({message: input})
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Append bot response on the left
-                chatbox.innerHTML += "<div class='bot-message'>" + data.response + "</div>";
-                document.getElementById("userInput").value = '';
-            });
+            const input = document.getElementById('userInput');
+            const chat = document.getElementById('chatContent');
+    
+            if (input.value.trim()) {
+                // User message
+                const userDiv = document.createElement('div');
+                userDiv.className = 'message user-message';
+                userDiv.textContent = input.value;
+                chat.appendChild(userDiv);
+    
+                // Bot response
+                fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: input.value })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const botDiv = document.createElement('div');
+                    botDiv.className = 'message bot-message';
+                    botDiv.innerHTML = data.response;
+                    chat.appendChild(botDiv);
+                    chat.scrollTop = chat.scrollHeight;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+    
+                input.value = '';
+                chat.scrollTop = chat.scrollHeight;
+            }
         }
-
-        function learnMore() {
-            alert("Stay tuned for more information on our exclusive loan offers!");
+    
+        // FAQ Functionality
+        async function showFAQ() {
+            try {
+                const response = await fetch('Q&A.txt');
+                if (!response.ok) throw new Error('Failed to load FAQs');
+                const data = await response.text();
+    
+                const faqContent = document.getElementById('faqContent');
+                faqContent.innerHTML = data.split('---').map(pair => {
+                    const [question, answer] = pair.split('\n').filter(t => t.trim());
+                    return `
+                        <div class="faq-item">
+                            <h3>${question?.trim() || 'Question'}</h3>
+                            <p>${answer?.trim() || 'Answer not available'}</p>
+                        </div>
+                    `;
+                }).join('');
+    
+                document.getElementById('faqModal').style.display = 'block';
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('faqContent').innerHTML =
+                    '<p>Unable to load FAQs at this time. Please try again later.</p>';
+            }
         }
+    
+        function closeModal() {
+            document.getElementById('faqModal').style.display = 'none';
+        }
+    
+        // Event Listeners
+        document.getElementById('toggleChat').addEventListener('click', toggleChat);
+        document.getElementById('userInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+        window.onclick = (event) => {
+            if (event.target === document.getElementById('faqModal')) {
+                closeModal();
+            }
+        };
     </script>
+    
 </body>
 </html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Mirafra Bank</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #4CAF50, #1a73e8);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 3rem;
+        }
+
+        .services-content {
+            margin: 40px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .service-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: black;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('services') }}">Services</a>
+        <a href="{{ url_for('contact') }}">Contact Us</a>
+    </div>
+    <h1>Our Services</h1>
+
+    <div class="services-content">
+        <div class="service-box">
+            <h2>Smart Chatbot for Banking</h2>
+            <p>Our AI-powered chatbot helps you with account management, transactions, and customer support 24/7.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Personalized Banking Solutions</h2>
+            <p>We provide customized banking services including loans, credit cards, and investment advice.</p>
+        </div>
+
+        <div class="service-box">
+            <h2>Secure Online Transactions</h2>
+            <p>Enjoy seamless, secure, and fast online transactions with our digital banking solutions.</p>
+        </div>
+    </div>
+</body>
+</html>

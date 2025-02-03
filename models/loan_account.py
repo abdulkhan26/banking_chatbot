@@ -1,4 +1,7 @@
+# loan_account.py
+
 from database import get_db_connection
+import logging
 
 class LoanAccount:
     @staticmethod
@@ -11,9 +14,9 @@ class LoanAccount:
                 VALUES (?, ?, ?, ?)
             ''', (name, pin, account_number, loans))
             conn.commit()
-            print(f"Loan account {account_number} created successfully ✅")
+            logging.info(f"Loan account {account_number} created successfully ✅")
         except Exception as e:
-            print(f"Error creating loan account: {e}")
+            logging.error(f"Error creating loan account: {e}")
         finally:
             cursor.close()
             conn.close()
@@ -24,5 +27,6 @@ class LoanAccount:
         cursor = conn.cursor()
         cursor.execute('SELECT * FROM loan_accounts WHERE account_number = ?', (account_number,))
         loan_details = cursor.fetchone()
+        cursor.close()
         conn.close()
         return loan_details
