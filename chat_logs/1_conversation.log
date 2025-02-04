@@ -2395,3 +2395,57 @@ Please choose an option:
 5. Update Details
 6. Loan Eligibility
 
+[2025-02-04 22:55:50] User: hi
+[2025-02-04 22:55:50] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 22:55:56] User: 3
+[2025-02-04 22:55:56] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 22:56:00] User: 50
+[2025-02-04 22:56:00] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 22:56:18] User: 1000008
+[2025-02-04 22:56:18] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 22:56:45] User: 2
+[2025-02-04 22:56:45] Bot: Recent Transactions:
+2025-02-04 17:26:18: Debit Rs.-50.00 to 1000008
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 23:02:21] User: hey
+[2025-02-04 23:02:21] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+

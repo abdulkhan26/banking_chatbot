@@ -50,6 +50,16 @@ def debit_account(user_id, amount, recipient_account):
         cursor.execute('UPDATE users SET balance = balance + ? WHERE id = ?', (amount, recipient_id))
         Transaction.log_transaction(user_id, -amount, 'debit', recipient_account)
         Transaction.log_transaction(recipient_id, amount, 'credit', recipient_account=None)
+
+        cursor.execute('''
+            INSERT INTO transactions (user_id, amount, transaction_type, recipient_account)
+            VALUES (?, ?, ?, ?)
+        ''', (user_id, -amount, 'debit', recipient_account))
+        
+        cursor.execute('''
+            INSERT INTO transactions (user_id, amount, transaction_type, recipient_account)
+            VALUES (?, ?, ?, ?)
+        ''', (recipient_id, amount, 'credit', None))
         conn.commit()
         logging.info(f"Debit transaction successful for user ID {user_id}, amount: {amount}, to recipient: {recipient_account}")
         return "Debit transaction successful."
