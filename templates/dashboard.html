@@ -239,6 +239,42 @@
             text-decoration: underline;
             padding:10px;
         }
+
+        .contact-popup {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+            text-align: center;
+            z-index: 1000;
+        }
+        .logout-btn {
+    position: fixed;
+    top: 90px; /* Adjust vertical positioning if needed */
+    right: 120px; /* Position the button 20px from the right */
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.logout-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+    
+        
     </style>
 </head>
 <body>
@@ -246,8 +282,11 @@
         <div class="header">
             <h3>DAV Banking Services</h3>
             <h5><span style="color:black">Chatbot Assistant</span></h5>
+            <button class="logout-btn">Logout</button>
         </div>
-
+        
+        
+        
         <div class="content">
             <h3>Welcome to DAV's Bank Services</h3>
             <p>At DAV Bank, we are committed to providing seamless and secure financial services tailored to your needs. Whether you want to transfer funds, check your balance, review past transactions, or apply for loans, we make banking <strong>simpler and faster</strong>.</p>
@@ -306,27 +345,49 @@
         </div>
     </div>
 
+     <div id="contactPopup" class="contact-popup">
+        📧 Email: support@davbank.com | 📞 Phone: +91 984 576 3245
+    </div>
+
     <footer class="footer">
         <h3><p>©<span style="color:green">DAV</span> Banking Services. All rights reserved.</p></h3>
         <p>
             <a href="#" onclick="showFAQ()">FAQ</a> |
-            <a href="#">Contact Support</a> |
-            <a href="#">Security Info</a>   |
+            <a href="#" onclick="showContactPopup()">Contact Support</a> |
             <a href="#">Privacy Policy</a>
         </p>
 
     </footer>
-
+    <form id="logout-form" action="{{ url_for('logout') }}" method="post" style="display: none;">
+        <!-- CSRF token removed -->
+    </form>
     <script>
         // Chatbot Functionality
         let isChatMinimized = false;
+        let isChatOpenedFirstTime = true; // Add a flag to check if it's the first time the chat is opened
     
         function toggleChat() {
             const container = document.getElementById('chatContainer');
             const toggleBtn = document.getElementById('toggleChat');
             container.style.display = container.style.display === 'none' ? 'flex' : 'none';
             toggleBtn.style.display = container.style.display === 'none' ? 'block' : 'none';
+    
+            // Display welcome message when chatbot is opened for the first time
+            if (isChatOpenedFirstTime && container.style.display === 'flex') {
+                const chatContent = document.getElementById('chatContent');
+                const botDiv = document.createElement('div');
+                botDiv.className = 'message bot-message';
+                botDiv.innerHTML = "Welcome to DAV! How can I assist you today? Please type Hi to start the conversation.";
+                chatContent.appendChild(botDiv);
+                isChatOpenedFirstTime = false; // Set the flag to false after the first opening
+            }
         }
+        function logout() {
+    document.getElementById('logout-form').submit();
+}
+
+document.querySelector('.logout-btn').addEventListener('click', logout);
+
     
         function closeChat() {
             document.getElementById('chatContainer').style.display = 'none';
@@ -404,6 +465,16 @@
         function closeModal() {
             document.getElementById('faqModal').style.display = 'none';
         }
+
+        function showContactPopup() {
+            let popup = document.getElementById('contactPopup');
+            popup.style.display = 'block';
+
+            // Hide the pop-up after 3 seconds
+            setTimeout(() => {
+                popup.style.display = 'none';
+            }, 5000);
+        }
     
         // Event Listeners
         document.getElementById('toggleChat').addEventListener('click', toggleChat);
@@ -416,6 +487,7 @@
             }
         };
     </script>
+    
     
 </body>
 </html>

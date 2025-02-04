@@ -599,3 +599,1799 @@
 5. Update Details
 6. Loan Details
 
+[2025-02-03 11:51:49] User: hello
+[2025-02-03 11:51:49] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:52:16] User: 1
+[2025-02-03 11:52:16] Bot: Your current balance is Rs.3290.00
+
+[2025-02-03 11:52:21] User: 2
+[2025-02-03 11:52:21] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 11:53:10] User: hi
+[2025-02-03 11:53:10] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:53:13] User: hey
+[2025-02-03 11:53:13] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 11:53:33] User: 3
+[2025-02-03 11:53:33] Bot: Please enter the amount to debit.
+
+[2025-02-03 11:53:50] User: hey
+[2025-02-03 11:53:50] Bot: Invalid amount. Please enter a valid number.
+
+[2025-02-03 11:53:54] User: 6
+[2025-02-03 11:53:54] Bot: Please enter the recipient's account number.
+
+[2025-02-03 11:57:28] User: hello
+[2025-02-03 11:57:28] Bot: Invalid recipient account number.
+
+[2025-02-03 11:57:34] User: hello
+[2025-02-03 11:57:34] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 12:39:30] User: kjdfhk
+[2025-02-03 12:39:30] Bot: Please start the conversation by saying 'hello'.
+
+[2025-02-03 12:44:10] User: 1
+[2025-02-03 12:44:10] Bot: Please start the conversation by saying 'hello'.
+
+[2025-02-03 12:45:36] User: hello
+[2025-02-03 12:45:36] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 12:45:38] User: balance
+[2025-02-03 12:45:38] Bot: Your current balance is Rs.3290.00
+
+[2025-02-03 14:17:56] User: hello
+[2025-02-03 14:17:56] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 14:18:13] User: balance
+[2025-02-03 14:18:13] Bot: Your current balance is Rs.3290.00
+
+[2025-02-03 14:18:36] User: 2
+[2025-02-03 14:18:36] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+[2025-02-03 14:19:02] User: 3
+[2025-02-03 14:19:02] Bot: Please enter the amount to debit.
+
+[2025-02-03 14:19:16] User: 800
+[2025-02-03 14:19:16] Bot: Please enter the recipient's account number.
+
+[2025-02-03 14:19:32] User: 100000
+[2025-02-03 14:19:32] Bot: Invalid recipient account number.
+
+[2025-02-03 14:19:40] User: 1000003
+[2025-02-03 14:19:40] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 14:19:58] User: 3
+[2025-02-03 14:19:58] Bot: Please enter the amount to debit.
+
+[2025-02-03 14:20:12] User: 800
+[2025-02-03 14:20:12] Bot: Please enter the recipient's account number.
+
+[2025-02-03 14:20:28] User: 1000003
+[2025-02-03 14:20:28] Bot: Debit transaction successful.
+
+[2025-02-03 14:21:18] User: 4
+[2025-02-03 14:21:18] Bot: Please enter your current PIN.
+
+[2025-02-03 14:22:08] User: 4321
+[2025-02-03 14:22:08] Bot: Please enter your new PIN.
+
+[2025-02-03 14:22:24] User: 1234
+[2025-02-03 14:22:24] Bot: PIN changed successfully.
+
+[2025-02-03 14:22:33] User: 4
+[2025-02-03 14:22:33] Bot: Please enter your current PIN.
+
+[2025-02-03 14:22:42] User: 1256
+[2025-02-03 14:22:42] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-03 14:23:37] User: 5
+[2025-02-03 14:23:37] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-03 14:23:45] User: 1234
+[2025-02-03 14:23:45] Bot: Please enter your new PIN.
+
+[2025-02-03 14:23:51] User: 4321
+[2025-02-03 14:23:51] Bot: PIN changed successfully.
+
+[2025-02-03 14:23:54] User: 5
+[2025-02-03 14:23:54] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-03 14:24:34] User: email
+[2025-02-03 14:24:34] Bot: Enter new email:
+
+[2025-02-03 14:24:51] User: user1@gmail.com
+[2025-02-03 14:24:51] Bot: Email updated successfully.
+
+[2025-02-03 14:25:09] User: 6
+[2025-02-03 14:25:09] Bot: Your current loan amount is Rs.2000.00
+
+[2025-02-03 16:14:21] User: hello
+[2025-02-03 16:14:21] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:25:55] User: hello
+[2025-02-03 16:25:55] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:26:04] User: hello
+[2025-02-03 16:26:04] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:26:26] User: hello
+[2025-02-03 16:26:26] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:27:37] User: hi
+[2025-02-03 16:27:37] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:27:45] User: hi
+[2025-02-03 16:27:45] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:32:00] User: hi
+[2025-02-03 16:32:00] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-03 16:35:46] User: hey
+[2025-02-03 16:35:46] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Debit
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-04 12:41:48] User: hi
+[2025-02-04 12:41:48] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Details
+
+[2025-02-04 12:41:52] User: 6
+[2025-02-04 12:41:52] Bot: Sorry, I didn't catch that. Can you please type your message again?
+
+[2025-02-04 12:42:46] User: 6
+[2025-02-04 12:42:46] Bot: Are you employed or self-employed?
+
+[2025-02-04 12:42:50] User: employed
+[2025-02-04 12:42:50] Bot: Please enter your monthly salary (if employed) or annual business turnover (if self-employed):
+
+[2025-02-04 12:43:00] User: 70000
+[2025-02-04 12:43:00] Bot: 🏦 Loan Scheme: Gold Loan
+💰 Max Loan Amount: ₹700000.00
+📉 Interest Rate: 9.0%
+
+[2025-02-04 12:52:39] User: hi
+[2025-02-04 12:52:39] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 12:52:44] User: 6
+[2025-02-04 12:52:44] Bot: Are you employed or self-employed?
+
+[2025-02-04 12:52:50] User: employed
+[2025-02-04 12:52:50] Bot: Enter your monthly salary (if employed) or annual business turnover (if self-employed):
+
+[2025-02-04 12:56:55] User: hey
+[2025-02-04 12:56:55] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 12:56:58] User: 6
+[2025-02-04 12:56:58] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+
+[2025-02-04 12:57:00] User: 1
+[2025-02-04 12:57:00] Bot: You selected **Employed**. Please enter your **monthly salary**:
+
+[2025-02-04 13:00:51] User: hi
+[2025-02-04 13:00:51] Bot: Invalid input. Please enter a valid number.
+
+[2025-02-04 13:00:54] User: hi
+[2025-02-04 13:00:54] Bot: Invalid input. Please enter a valid number.
+
+[2025-02-04 13:01:02] User: hi
+[2025-02-04 13:01:02] Bot: Invalid input. Please enter a valid number.
+
+[2025-02-04 14:13:52] User: hi
+[2025-02-04 14:13:52] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:13:54] User: 6
+[2025-02-04 14:13:54] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+
+[2025-02-04 14:13:57] User: 1
+[2025-02-04 14:13:57] Bot: You selected **Employed**. Please enter your **monthly salary**:
+
+[2025-02-04 14:14:06] User: 70000
+[2025-02-04 14:14:06] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹420000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+[2025-02-04 14:14:20] User: okay
+[2025-02-04 14:14:20] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:19:20] User: hello
+[2025-02-04 14:19:20] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:19:42] User: 1
+[2025-02-04 14:19:42] Bot: Your current balance is Rs.2490.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:19:45] User: 2
+[2025-02-04 14:19:45] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:19:49] User: 3
+[2025-02-04 14:19:49] Bot: Please enter the amount to debit.
+
+[2025-02-04 14:19:51] User: 500
+[2025-02-04 14:19:51] Bot: Please enter the recipient's account number.
+
+[2025-02-04 14:20:09] User: 1000006
+[2025-02-04 14:20:09] Bot: Debit transaction successful.
+
+[2025-02-04 14:20:30] User: 4
+[2025-02-04 14:20:30] Bot: Please enter your current PIN.
+
+[2025-02-04 14:23:23] User: hi
+[2025-02-04 14:23:23] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-04 14:23:38] User: hi
+[2025-02-04 14:23:38] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:23:41] User: 3
+[2025-02-04 14:23:41] Bot: Please enter the amount to debit.
+
+[2025-02-04 14:23:45] User: 100
+[2025-02-04 14:23:45] Bot: Please enter the recipient's account number.
+
+[2025-02-04 14:24:04] User: 1000008
+[2025-02-04 14:24:04] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:24:10] User: 4
+[2025-02-04 14:24:10] Bot: Please enter your current PIN.
+
+[2025-02-04 14:24:13] User: 1234
+[2025-02-04 14:24:13] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-04 14:24:16] User: 4321
+[2025-02-04 14:24:16] Bot: Please enter your new PIN.
+
+[2025-02-04 14:24:19] User: 1234
+[2025-02-04 14:24:19] Bot: PIN changed successfully.
+
+[2025-02-04 14:26:02] User: hi
+[2025-02-04 14:26:02] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:26:05] User: 4
+[2025-02-04 14:26:05] Bot: Please enter your current PIN.
+
+[2025-02-04 14:26:08] User: 1234
+[2025-02-04 14:26:08] Bot: Please enter your new PIN.
+
+[2025-02-04 14:26:10] User: 4321
+[2025-02-04 14:26:10] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:26:22] User: 5
+[2025-02-04 14:26:22] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-04 14:26:25] User: email
+[2025-02-04 14:26:25] Bot: Enter new email:
+
+[2025-02-04 14:26:33] User: user1@abc.com
+[2025-02-04 14:26:33] Bot: Email updated successfully.
+
+[2025-02-04 14:55:43] User: hi
+[2025-02-04 14:55:43] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:56:16] User: balance
+[2025-02-04 14:56:16] Bot: Your current balance is Rs.1890.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:56:36] User: 2
+[2025-02-04 14:56:36] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:56:50] User: 3
+[2025-02-04 14:56:50] Bot: Please enter the amount to debit.
+
+[2025-02-04 14:57:00] User: 605
+[2025-02-04 14:57:00] Bot: Please enter the recipient's account number.
+
+[2025-02-04 14:57:11] User: 1234
+[2025-02-04 14:57:11] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:57:16] User: 3
+[2025-02-04 14:57:16] Bot: Please enter the amount to debit.
+
+[2025-02-04 14:57:20] User: 605
+[2025-02-04 14:57:20] Bot: Please enter the recipient's account number.
+
+[2025-02-04 14:57:48] User: 1000005
+[2025-02-04 14:57:48] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:58:15] User: 4
+[2025-02-04 14:58:15] Bot: Please enter your current PIN.
+
+[2025-02-04 14:58:35] User: 1234
+[2025-02-04 14:58:35] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-04 14:58:53] User: 4
+[2025-02-04 14:58:53] Bot: ❌ Incorrect PIN. Please try again.
+
+[2025-02-04 14:58:56] User: 4321
+[2025-02-04 14:58:56] Bot: Please enter your new PIN.
+
+[2025-02-04 14:59:06] User: 1234
+[2025-02-04 14:59:06] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:59:11] User: 5
+[2025-02-04 14:59:11] Bot: Which details would you like to update? (email/username/phone_number)
+
+[2025-02-04 14:59:15] User: email
+[2025-02-04 14:59:15] Bot: Enter new email:
+
+[2025-02-04 14:59:22] User: user3@gmail.com
+[2025-02-04 14:59:22] Bot: Email updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 14:59:45] User: 6
+[2025-02-04 14:59:45] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+
+[2025-02-04 14:59:48] User: 1
+[2025-02-04 14:59:48] Bot: You selected **Employed**. Please enter your **monthly salary**:
+
+[2025-02-04 14:59:55] User: 25000
+[2025-02-04 14:59:55] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹150000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:01:27] User: 6
+[2025-02-04 15:01:27] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+
+[2025-02-04 15:01:29] User: 2
+[2025-02-04 15:01:29] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+
+[2025-02-04 15:02:09] User: 3000000
+[2025-02-04 15:02:09] Bot: 🏦 Loan Scheme: Business Loan
+💰 Max Loan Amount: ₹540000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:02:25] User: 3
+[2025-02-04 15:02:25] Bot: Please enter the amount to debit.
+
+[2025-02-04 15:02:29] User: 00
+[2025-02-04 15:02:29] Bot: Please enter the recipient's account number.
+
+[2025-02-04 15:02:46] User: 1000006
+[2025-02-04 15:02:46] Bot: Please enter the amount first.
+
+[2025-02-04 15:02:53] User: 0
+[2025-02-04 15:02:53] Bot: Please enter the recipient's account number.
+
+[2025-02-04 15:03:06] User: 1000006
+[2025-02-04 15:03:06] Bot: Please enter the amount first.
+
+[2025-02-04 15:03:21] User: hey
+[2025-02-04 15:03:21] Bot: Invalid amount. Please enter a valid number.
+
+[2025-02-04 15:03:25] User: hi
+[2025-02-04 15:03:25] Bot: Invalid amount. Please enter a valid number.
+
+[2025-02-04 15:03:33] User: hello
+[2025-02-04 15:03:33] Bot: Invalid amount. Please enter a valid number.
+
+[2025-02-04 15:03:45] User: 2
+[2025-02-04 15:03:45] Bot: Please enter the recipient's account number.
+
+[2025-02-04 15:12:03] User: hi
+[2025-02-04 15:12:03] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:12:08] User: 3
+[2025-02-04 15:12:08] Bot: Please enter the amount to debit.
+
+[2025-02-04 15:12:11] User: 00
+[2025-02-04 15:12:11] Bot: Please enter the recipient's account number.
+
+[2025-02-04 15:12:20] User: 1000008
+[2025-02-04 15:12:20] Bot: Please enter the amount first.
+
+[2025-02-04 15:15:14] User: hey
+[2025-02-04 15:15:14] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:15:20] User: 3
+[2025-02-04 15:15:20] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:15:24] User: x
+[2025-02-04 15:15:24] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:15:31] User: 3
+[2025-02-04 15:15:31] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:15:34] User: 90
+[2025-02-04 15:15:34] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:15:37] User: x
+[2025-02-04 15:15:37] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:16:05] User: 1
+[2025-02-04 15:16:05] Bot: Your current balance is Rs.1285.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:16:18] User: 3
+[2025-02-04 15:16:18] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:16:31] User: X
+[2025-02-04 15:16:31] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:16:34] User: 3
+[2025-02-04 15:16:34] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:16:42] User: 1000009
+[2025-02-04 15:16:42] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:17:03] User: 1000008
+[2025-02-04 15:17:03] Bot: Insufficient funds.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:17:11] User: 3
+[2025-02-04 15:17:11] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:17:17] User: 1000
+[2025-02-04 15:17:17] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:17:42] User: 1000001
+[2025-02-04 15:17:42] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:18:02] User: 2
+[2025-02-04 15:18:02] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:19:04] User: 4
+[2025-02-04 15:19:04] Bot: Please enter your current PIN.
+Press X to exit.
+
+[2025-02-04 15:19:12] User: 1234
+[2025-02-04 15:19:12] Bot: Please enter your new PIN.
+Press X to exit.
+
+[2025-02-04 15:19:23] User: 9876
+[2025-02-04 15:19:23] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:19:42] User: 4
+[2025-02-04 15:19:42] Bot: Please enter your current PIN.
+Press X to exit.
+
+[2025-02-04 15:19:49] User: qwer
+[2025-02-04 15:19:49] Bot: ❌ Incorrect PIN. Please try again.
+Press X to exit.
+
+[2025-02-04 15:20:00] User: 9876
+[2025-02-04 15:20:00] Bot: Please enter your new PIN.
+Press X to exit.
+
+[2025-02-04 15:20:15] User: 1234
+[2025-02-04 15:20:15] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:20:17] User: 5
+[2025-02-04 15:20:17] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:20:50] User: phone_number
+[2025-02-04 15:20:50] Bot: Enter new phone_number:
+Press X to exit.
+
+[2025-02-04 15:21:45] User: 1809550494
+[2025-02-04 15:21:45] Bot: Database error occurred while updating phone_number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:22:00] User: 8095504941
+[2025-02-04 15:22:00] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:22:15] User: 5
+[2025-02-04 15:22:15] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:22:21] User: phone_number
+[2025-02-04 15:22:21] Bot: Enter new phone_number:
+Press X to exit.
+
+[2025-02-04 15:22:29] User: 1122334455
+[2025-02-04 15:22:29] Bot: Database error occurred while updating phone_number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:22:36] User: 5
+[2025-02-04 15:22:36] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:23:03] User: email
+[2025-02-04 15:23:03] Bot: Enter new email:
+Press X to exit.
+
+[2025-02-04 15:23:12] User: a@.com
+[2025-02-04 15:23:12] Bot: Email updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:23:45] User: 5
+[2025-02-04 15:23:45] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:23:50] User: username
+[2025-02-04 15:23:50] Bot: Enter new username:
+Press X to exit.
+
+[2025-02-04 15:24:04] User: 123qwe
+[2025-02-04 15:24:04] Bot: Username updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:25:39] User: 1
+[2025-02-04 15:25:39] Bot: Your current balance is Rs.1285.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:25:53] User: 3
+[2025-02-04 15:25:53] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:26:04] User: 1285.1
+[2025-02-04 15:26:04] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:26:15] User: 1000008
+[2025-02-04 15:26:15] Bot: Insufficient funds.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:26:20] User: 3
+[2025-02-04 15:26:20] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:26:25] User: 1000
+[2025-02-04 15:26:25] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:27:02] User: 1
+[2025-02-04 15:27:02] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:27:10] User: 1000005
+[2025-02-04 15:27:10] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:27:24] User: 1
+[2025-02-04 15:27:24] Bot: Your current balance is Rs.285.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:27:38] User: 3
+[2025-02-04 15:27:38] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:27:49] User: -15
+[2025-02-04 15:27:49] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:28:12] User: 1000004
+[2025-02-04 15:28:12] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:29:26] User: 5
+[2025-02-04 15:29:26] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:29:30] User: X
+[2025-02-04 15:29:30] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:29:36] User: 4
+[2025-02-04 15:29:36] Bot: Please enter your current PIN.
+Press X to exit.
+
+[2025-02-04 15:29:37] User: x
+[2025-02-04 15:29:37] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:33:32] User: 5
+[2025-02-04 15:33:32] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:33:34] User: X
+[2025-02-04 15:33:34] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:33:45] User: 6
+[2025-02-04 15:33:45] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:33:54] User: 1
+[2025-02-04 15:33:54] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-04 15:34:03] User: 10000
+[2025-02-04 15:34:03] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹60000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:34:23] User: 6
+[2025-02-04 15:34:23] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:34:25] User: 1
+[2025-02-04 15:34:25] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-04 15:34:27] User: 1000
+[2025-02-04 15:34:27] Bot: ❌ Minimum salary must be ₹10,000 to qualify.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:34:34] User: 6
+[2025-02-04 15:34:34] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:34:39] User: -10000
+[2025-02-04 15:34:39] Bot: Invalid option. Please enter **1 for Employed** or **2 for Self-Employed**.
+Press X to exit.
+
+[2025-02-04 15:34:54] User: X
+[2025-02-04 15:34:54] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:34:56] User: 6
+[2025-02-04 15:34:56] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:35:04] User: -1
+[2025-02-04 15:35:04] Bot: Invalid option. Please enter **1 for Employed** or **2 for Self-Employed**.
+Press X to exit.
+
+[2025-02-04 15:35:08] User: X
+[2025-02-04 15:35:08] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:35:11] User: 6
+[2025-02-04 15:35:11] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:35:14] User: O
+[2025-02-04 15:35:14] Bot: Invalid option. Please enter **1 for Employed** or **2 for Self-Employed**.
+Press X to exit.
+
+[2025-02-04 15:35:18] User: X
+[2025-02-04 15:35:18] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:35:20] User: 6
+[2025-02-04 15:35:20] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:35:22] User: 1
+[2025-02-04 15:35:22] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-04 15:35:37] User: X
+[2025-02-04 15:35:37] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:35:39] User: 6
+[2025-02-04 15:35:39] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:35:41] User: 2
+[2025-02-04 15:35:41] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-04 15:35:44] User: 10000
+[2025-02-04 15:35:44] Bot: ❌ Business turnover must be at least ₹5L.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:35:50] User: 6
+[2025-02-04 15:35:50] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:36:00] User: 2
+[2025-02-04 15:36:00] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-04 15:36:10] User: 500000
+[2025-02-04 15:36:10] Bot: 🏦 Loan Scheme: Business Loan
+💰 Max Loan Amount: ₹90000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:36:42] User: 1
+[2025-02-04 15:36:42] Bot: Your current balance is Rs.300.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:36:54] User: 3
+[2025-02-04 15:36:54] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:36:58] User: -1000
+[2025-02-04 15:36:58] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:37:06] User: 1
+[2025-02-04 15:37:06] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:15] User: 1000004
+[2025-02-04 15:37:15] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:21] User: 1
+[2025-02-04 15:37:21] Bot: Your current balance is Rs.1300.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:34] User: 3
+[2025-02-04 15:37:34] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:37:36] User: X
+[2025-02-04 15:37:36] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:37] User: 1
+[2025-02-04 15:37:37] Bot: Your current balance is Rs.1300.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:43] User: 3
+[2025-02-04 15:37:43] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:37:48] User: 1000
+[2025-02-04 15:37:48] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:37:52] User: 10000000000000003
+[2025-02-04 15:37:52] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:37:57] User: 3
+[2025-02-04 15:37:57] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:38:00] User: 1000
+[2025-02-04 15:38:00] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:38:13] User: 1
+[2025-02-04 15:38:13] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:38:19] User: 2
+[2025-02-04 15:38:19] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:38:19] User: 1000002
+[2025-02-04 15:38:19] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:38:37] User: 1
+[2025-02-04 15:38:37] Bot: Your current balance is Rs.300.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:38:41] User: 2
+[2025-02-04 15:38:41] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:41:14] User: 6
+[2025-02-04 15:41:14] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:41:28] User: 1
+[2025-02-04 15:41:28] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-04 15:41:33] User: 80000
+[2025-02-04 15:41:33] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹480000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:41:42] User: 6
+[2025-02-04 15:41:42] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-04 15:41:43] User: 2
+[2025-02-04 15:41:43] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-04 15:41:54] User: 9000000
+[2025-02-04 15:41:54] Bot: 🏦 Loan Scheme: Business Loan
+💰 Max Loan Amount: ₹1620000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:47:42] User: hi
+[2025-02-04 15:47:42] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:47:47] User: 3
+[2025-02-04 15:47:47] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:47:50] User: -90
+[2025-02-04 15:47:50] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:48:09] User: 10000089
+[2025-02-04 15:48:09] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:49:23] User: 3
+[2025-02-04 15:49:23] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:49:26] User: -90
+[2025-02-04 15:49:26] Bot: Please enter valid amount
+
+[2025-02-04 15:50:11] User: 3
+[2025-02-04 15:50:11] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:50:27] User: hi
+[2025-02-04 15:50:27] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:50:29] User: 3
+[2025-02-04 15:50:29] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:50:31] User: -90
+[2025-02-04 15:50:31] Bot: Please enter valid amount
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:50:35] User: 3
+[2025-02-04 15:50:35] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:53:16] User: hi
+[2025-02-04 15:53:16] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:53:19] User: 3
+[2025-02-04 15:53:19] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 15:53:24] User: -90
+[2025-02-04 15:53:24] Bot: Please enter a valid positive amount.
+Press X to exit.
+
+[2025-02-04 15:53:31] User: -10
+[2025-02-04 15:53:31] Bot: Please enter a valid positive amount.
+Press X to exit.
+
+[2025-02-04 15:53:35] User: 90
+[2025-02-04 15:53:35] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 15:59:19] User: hi
+[2025-02-04 15:59:19] Bot: Invalid recipient account number.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 15:59:23] User: 5
+[2025-02-04 15:59:23] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 15:59:26] User: username
+[2025-02-04 15:59:26] Bot: Enter new username:
+Press X to exit.
+
+[2025-02-04 15:59:33] User: 12389
+[2025-02-04 15:59:33] Bot: Username updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:01:53] User: hi
+[2025-02-04 16:01:53] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:01:57] User: 5
+[2025-02-04 16:01:57] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 16:01:59] User: email
+[2025-02-04 16:01:59] Bot: Enter new email:
+Press X to exit.
+
+[2025-02-04 16:02:07] User: abc@.com
+[2025-02-04 16:02:07] Bot: ❌ Invalid email format. Please enter a valid email.
+Press X to exit.
+
+[2025-02-04 16:02:15] User: abc@abc.com
+[2025-02-04 16:02:15] Bot: Email updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:02:19] User: 5
+[2025-02-04 16:02:19] Bot: Which details would you like to update? (email/username/phone_number)
+Press X to exit.
+
+[2025-02-04 16:02:23] User: username
+[2025-02-04 16:02:23] Bot: Enter new username:
+Press X to exit.
+
+[2025-02-04 16:02:36] User: 1213user
+[2025-02-04 16:02:36] Bot: ❌ Invalid username. It must start with alphabets, followed by numbers, and be at least 4 characters long.
+Press X to exit.
+
+[2025-02-04 16:02:41] User: user1
+[2025-02-04 16:02:41] Bot: Username updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:03:32] User: hi
+[2025-02-04 16:03:32] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:03:34] User: 5
+[2025-02-04 16:03:34] Bot: Which details would you like to update? (email/username)
+Press X to exit.
+
+[2025-02-04 16:11:17] User: X
+[2025-02-04 16:11:17] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:11:21] User: 3
+[2025-02-04 16:11:21] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 16:11:33] User: hi
+[2025-02-04 16:11:33] Bot: Invalid amount. Please enter a valid positive number.
+Press X to exit.
+
+[2025-02-04 16:11:37] User: X
+[2025-02-04 16:11:37] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:11:42] User: 3
+[2025-02-04 16:11:42] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 16:11:46] User: 50
+[2025-02-04 16:11:46] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 16:12:01] User: 1000007
+[2025-02-04 16:12:01] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:12:09] User: 2
+[2025-02-04 16:12:09] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:13:26] User: hi
+[2025-02-04 16:13:26] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:13:28] User: 3
+[2025-02-04 16:13:28] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 16:13:31] User: 1000
+[2025-02-04 16:13:31] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 16:13:40] User: 1000005
+[2025-02-04 16:13:40] Bot: Insufficient funds.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:13:46] User: balance
+[2025-02-04 16:13:46] Bot: Your current balance is Rs.250.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:13:59] User: 1
+[2025-02-04 16:13:59] Bot: Your current balance is Rs.250.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:14:01] User: 3
+[2025-02-04 16:14:01] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-04 16:14:02] User: 100
+[2025-02-04 16:14:02] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-04 16:14:18] User: 1000003
+[2025-02-04 16:14:18] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:14:24] User: 2
+[2025-02-04 16:14:24] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:27:10] User: hi
+[2025-02-04 16:27:10] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:27:32] User: 2
+[2025-02-04 16:27:32] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:28:49] User: 2
+[2025-02-04 16:28:49] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:29:06] User: 2
+[2025-02-04 16:29:06] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-04 16:29:19] User: 2
+[2025-02-04 16:29:19] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+

@@ -49,9 +49,6 @@ def contact():
         name = request.form['name'].strip()
         email = request.form['email'].strip()
         message = request.form['message'].strip()
-
-        
-
         flash("Thank you for contacting us! We will get back to you soon.")
         return redirect(url_for('contact'))
 
@@ -163,13 +160,14 @@ def logout():
 @app.route('/services')
 def services():
     return render_template('services.html')
-@app.route('/Q&A.txt')
-def faq_file():
-    return send_from_directory('.', 'Q&A.txt')
 
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
+
+@app.route('/Q&A.txt')
+def faq_file():
+    return send_from_directory('.','Q&A.txt')
 
 @app.errorhandler(500)
 def internal_server_error(e):
