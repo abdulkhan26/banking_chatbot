@@ -255,11 +255,13 @@
             text-align: center;
             z-index: 1000;
         }
+        
+
         .logout-btn {
-    position: fixed;
-    top: 90px; /* Adjust vertical positioning if needed */
-    right: 120px; /* Position the button 20px from the right */
-    background-color: #007bff; /* Blue color */
+    position: absolute;
+    top: 80px; /* Adjusted to align better with the header */
+    right: 120px; /* Keeps it closer to the right edge */
+    background-color: #007bff;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -267,24 +269,27 @@
     font-size: 16px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 2000; /* Increased to ensure it's above other elements */
 }
 
-.logout-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
+
+        .logout-btn:hover {
+            background-color: #0056b3;
+        }
+
     
         
     </style>
 </head>
 <body>
+    <button class="logout-btn" onclick="logout()">Logout</button>
     <div class="container">
         <div class="header">
             <h3>DAV Banking Services</h3>
             <h5><span style="color:black">Chatbot Assistant</span></h5>
-            <button class="logout-btn" onclick="logout()">Logout</button>
+            
         </div>
-  
+        
         <div class="content">
             <h3>Welcome to DAV's Bank Services</h3>
             <p>At DAV Bank, we are committed to providing seamless and secure financial services tailored to your needs. Whether you want to transfer funds, check your balance, review past transactions, or apply for loans, we make banking <strong>simpler and faster</strong>.</p>
@@ -310,7 +315,7 @@
             </p>
         </div>
     </div>
-
+    <button class="logout-btn" onclick="logout()">Logout</button>
     <!-- Chatbot Interface -->
     <button class="chatbot-toggle-btn" id="toggleChat">💬</button>
 
