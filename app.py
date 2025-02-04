@@ -150,11 +150,12 @@ def chat():
     response = handle_chatbot_response(user_id, message)
     return jsonify({'response': response.replace("\n", "<br>")})
 
-@app.route('/logout')
+@app.route('/logout',methods=['POST','GET'])
 def logout():
-    username = session.get('username')
-    session.clear()
-    flash(f"User '{username}' logged out successfully.")
+    if 'user_id' in session:
+        username = session.get('username')
+        session.clear()
+        flash(f"User '{username}' logged out successfully.")
     return redirect(url_for('login'))
 
 @app.route('/services')

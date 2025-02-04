@@ -282,11 +282,9 @@
         <div class="header">
             <h3>DAV Banking Services</h3>
             <h5><span style="color:black">Chatbot Assistant</span></h5>
-            <button class="logout-btn">Logout</button>
+            <button class="logout-btn" onclick="logout()">Logout</button>
         </div>
-        
-        
-        
+  
         <div class="content">
             <h3>Welcome to DAV's Bank Services</h3>
             <p>At DAV Bank, we are committed to providing seamless and secure financial services tailored to your needs. Whether you want to transfer funds, check your balance, review past transactions, or apply for loans, we make banking <strong>simpler and faster</strong>.</p>
@@ -358,14 +356,30 @@
         </p>
 
     </footer>
-    <form id="logout-form" action="{{ url_for('logout') }}" method="post" style="display: none;">
-        <!-- CSRF token removed -->
-    </form>
+    
     <script>
         // Chatbot Functionality
         let isChatMinimized = false;
         let isChatOpenedFirstTime = true; // Add a flag to check if it's the first time the chat is opened
-    
+        function logout() {
+        fetch("{{ url_for('logout') }}", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-CSRFToken": "{{ session.get('_csrf_token', '') }}"  // If CSRF protection is enabled
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = "{{ url_for('login') }}";
+            } else {
+                alert("Logout failed. Please try again.");
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    }
+
+    document.querySelector('.logout-btn').addEventListener('click', logout);
         function toggleChat() {
             const container = document.getElementById('chatContainer');
             const toggleBtn = document.getElementById('toggleChat');
@@ -382,11 +396,7 @@
                 isChatOpenedFirstTime = false; // Set the flag to false after the first opening
             }
         }
-        function logout() {
-    document.getElementById('logout-form').submit();
-}
-
-document.querySelector('.logout-btn').addEventListener('click', logout);
+        
 
     
         function closeChat() {
