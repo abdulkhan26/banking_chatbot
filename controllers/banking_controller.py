@@ -71,20 +71,20 @@ def debit_account(user_id, amount, recipient_account):
         cursor.close()
         conn.close()
 
-def credit_account(user_id, amount):
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    try:
-        cursor.execute('UPDATE users SET balance = balance + ? WHERE id = ?', (amount, user_id))
-        Transaction.log_transaction(user_id, amount, 'credit')
-        conn.commit()
-        return "Credit transaction successful."
-    except Exception as e:
-        conn.rollback()
-        return f"Transaction failed: {str(e)}"
-    finally:
-        cursor.close()
-        conn.close()
+# def credit_account(user_id, amount):
+#     conn = get_db_connection()
+#     cursor = conn.cursor()
+#     try:
+#         cursor.execute('UPDATE users SET balance = balance + ? WHERE id = ?', (amount, user_id))
+#         Transaction.log_transaction(user_id, amount, 'credit')
+#         conn.commit()
+#         return "Credit transaction successful."
+#     except Exception as e:
+#         conn.rollback()
+#         return f"Transaction failed: {str(e)}"
+#     finally:
+#         cursor.close()
+#         conn.close()
 
 def change_user_pin(user_id, old_pin, new_pin):
     """

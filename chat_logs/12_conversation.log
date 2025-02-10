@@ -1,0 +1,51 @@
+[2025-02-05 09:21:41] User: hi
+[2025-02-05 09:21:41] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:21:46] User: hello
+[2025-02-05 09:21:46] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:21:51] User: Hel
+[2025-02-05 09:21:51] Bot: I didn't understand that. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:22:21] User: 6
+[2025-02-05 09:22:21] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 09:22:26] User: 1
+[2025-02-05 09:22:26] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-05 09:23:56] User: 10000
+[2025-02-05 09:23:56] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹60000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+

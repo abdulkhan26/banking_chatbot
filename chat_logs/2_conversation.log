@@ -1,0 +1,112 @@
+[2025-02-05 14:37:29] User: hi
+[2025-02-05 14:37:29] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:37:31] User: 1
+[2025-02-05 14:37:31] Bot: Your current balance is Rs.9500.50
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:37:39] User: 2
+[2025-02-05 14:37:39] Bot: Recent Transactions:
+2025-01-31 04:49:00: Debit Rs.617.89 to 100007
+2025-01-31 04:49:00: Debit Rs.980.92 to 100009
+2025-01-31 04:49:00: Credit Rs.852.28
+
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:37:44] User: 3
+[2025-02-05 14:37:44] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-05 14:37:47] User: 200
+[2025-02-05 14:37:47] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-05 14:38:05] User: 1000001
+[2025-02-05 14:38:05] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:38:13] User: 4
+[2025-02-05 14:38:13] Bot: Please enter your current PIN.
+Press X to exit.
+
+[2025-02-05 14:38:27] User: 5678
+[2025-02-05 14:38:27] Bot: Please enter your new PIN.
+Press X to exit.
+
+[2025-02-05 14:38:30] User: 1234
+[2025-02-05 14:38:30] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:38:35] User: 5
+[2025-02-05 14:38:35] Bot: Which details would you like to update? (email/username)
+Press X to exit.
+
+[2025-02-05 14:38:38] User: email
+[2025-02-05 14:38:38] Bot: Enter new email:
+Press X to exit.
+
+[2025-02-05 14:38:50] User: user2@hotmail.com
+[2025-02-05 14:38:50] Bot: Email updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 14:38:53] User: 6
+[2025-02-05 14:38:53] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 14:38:55] User: 1
+[2025-02-05 14:38:55] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-05 14:38:58] User: x
+[2025-02-05 14:38:58] Bot: You have exited the current task. Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+

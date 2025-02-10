@@ -17,15 +17,7 @@ def insert_users():
 
     users = [
         ('user1@example.com', 'user1', 'pass123', '1000001', 5000.00),
-        ('user2@example.com', 'user2', 'pass123', '1000002', 7500.50),
-        ('user3@example.com', 'user3', 'pass123', '1000003', 6200.75),
-        ('user4@example.com', 'user4', 'pass123', '1000004', 4800.00),
-        ('user5@example.com', 'user5', 'pass123', '1000005', 3900.25),
-        ('user6@example.com', 'user6', 'pass123', '1000006', 8100.00),
-        ('user7@example.com', 'user7', 'pass123', '1000007', 9200.75),
-        ('user8@example.com', 'user8', 'pass123', '1000008', 5600.25),
-        ('user9@example.com', 'user9', 'pass123', '1000009', 7000.00),
-        ('user10@example.com', 'user10', 'pass123', '1000010', 6500.50),
+        
     ]
 
     cursor.executemany('''
@@ -43,16 +35,8 @@ def insert_loans():
     cursor = conn.cursor()
 
     loans = [
-        ('User One', '1234', '1000001', 2000.00),
-        ('User Two', '5678', '1000002', 1500.50),
-        ('User Three', '9101', '1000003', 3200.75),
-        ('User Four', '1121', '1000004', 1800.00),
-        ('User Five', '3141', '1000005', 2900.25),
-        ('User Six', '5161', '1000006', 7100.00),
-        ('User Seven', '7181', '1000007', 6200.75),
-        ('User Eight', '9201', '1000008', 2600.25),
-        ('User Nine', '1222', '1000009', 4000.00),
-        ('User Ten', '3242', '1000010', 3500.50),
+        ('User One', '1234', '1000001', 0.00),
+        
     ]
 
     cursor.executemany('''

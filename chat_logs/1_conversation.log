@@ -2449,3 +2449,300 @@ Please choose an option:
 5. Update Details
 6. Loan Eligibility
 
+[2025-02-05 08:58:07] User: hi
+[2025-02-05 08:58:07] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 08:58:32] User: 6
+[2025-02-05 08:58:32] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 08:58:36] User: 1
+[2025-02-05 08:58:36] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-05 08:58:48] User: 25000
+[2025-02-05 08:58:48] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹150000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:00:40] User: 6
+[2025-02-05 09:00:40] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 09:00:42] User: 2
+[2025-02-05 09:00:42] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-05 09:00:51] User: 200000
+[2025-02-05 09:00:51] Bot: ❌ Business turnover must be at least ₹5L.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:00:58] User: 6
+[2025-02-05 09:00:58] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 09:01:01] User: 2
+[2025-02-05 09:01:01] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-05 09:01:04] User: 2000000
+[2025-02-05 09:01:04] Bot: 🏦 Loan Scheme: Business Loan
+💰 Max Loan Amount: ₹360000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:02:26] User: 1
+[2025-02-05 09:02:26] Bot: Your current balance is Rs.100.00
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:02:52] User: 2
+[2025-02-05 09:02:52] Bot: Recent Transactions:
+2025-02-04 17:26:18: Debit Rs.-50.00 to 1000008
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:03:03] User: 3
+[2025-02-05 09:03:03] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-05 09:13:18] User: hi
+[2025-02-05 09:13:18] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:13:20] User: 3
+[2025-02-05 09:13:20] Bot: Please enter the amount to debit.
+Press X to exit.
+
+[2025-02-05 09:13:27] User: 50
+[2025-02-05 09:13:27] Bot: Please enter the recipient's account number.
+Press X to exit.
+
+[2025-02-05 09:13:44] User: 1000009
+[2025-02-05 09:13:44] Bot: Debit transaction successful.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 09:13:49] User: 2
+[2025-02-05 09:13:49] Bot: Recent Transactions:
+2025-02-05 03:43:44: Debit Rs.-50.00 to 1000009
+2025-02-04 17:26:18: Debit Rs.-50.00 to 1000008
+2025-01-31 04:49:00: Debit Rs.960.73 to 100008
+2025-01-31 04:49:00: Credit Rs.54.88
+2025-01-31 04:49:00: Debit Rs.348.99 to 100006
+
+Detailed History is sent to your mail
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 16:53:36] User: hi
+[2025-02-05 16:53:36] Bot: Hello! How can I help you today? Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 16:53:38] User: 4
+[2025-02-05 16:53:38] Bot: Please enter your current PIN.
+Press X to exit.
+
+[2025-02-05 16:53:48] User: 4321
+[2025-02-05 16:53:48] Bot: ❌ Incorrect PIN. Please try again.
+Press X to exit.
+
+[2025-02-05 16:54:16] User: 1234
+[2025-02-05 16:54:16] Bot: Please enter your new PIN.
+Press X to exit.
+
+[2025-02-05 16:54:22] User: 4321
+[2025-02-05 16:54:22] Bot: PIN changed successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 16:55:10] User: 5
+[2025-02-05 16:55:10] Bot: Which details would you like to update? (email/username)
+Press X to exit.
+
+[2025-02-05 17:00:12] User: email
+[2025-02-05 17:00:12] Bot: Enter new email:
+Press X to exit.
+
+[2025-02-05 17:00:31] User: abhisheksuperrstar@hero.com
+[2025-02-05 17:00:31] Bot: Email updated successfully.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 17:01:21] User: 6
+[2025-02-05 17:01:21] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 17:01:33] User: 1
+[2025-02-05 17:01:33] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-05 17:01:56] User: 80000
+[2025-02-05 17:01:56] Bot: 🏦 Loan Scheme: Personal Loan
+💰 Max Loan Amount: ₹480000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 17:03:02] User: 6
+[2025-02-05 17:03:02] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 17:03:08] User: 1
+[2025-02-05 17:03:08] Bot: You selected **Employed**. Please enter your **monthly salary**:
+Press X to exit.
+
+[2025-02-05 17:03:14] User: 5000
+[2025-02-05 17:03:14] Bot: ❌ Minimum salary must be ₹10,000 to qualify.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 17:03:27] User: 6
+[2025-02-05 17:03:27] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 17:03:34] User: 2
+[2025-02-05 17:03:34] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-05 17:03:56] User: 300000
+[2025-02-05 17:03:56] Bot: ❌ Business turnover must be at least ₹5L.
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+
+[2025-02-05 17:04:11] User: 6
+[2025-02-05 17:04:11] Bot: Please select your employment status:
+1️⃣ Employed
+2️⃣ Self-Employed
+Press X to exit.
+
+[2025-02-05 17:04:13] User: 2
+[2025-02-05 17:04:13] Bot: You selected **Self-Employed**. Please enter your **annual business turnover**:
+Press X to exit.
+
+[2025-02-05 17:04:21] User: 3000000
+[2025-02-05 17:04:21] Bot: 🏦 Loan Scheme: Business Loan
+💰 Max Loan Amount: ₹540000.00
+📉 Interest Rate: 10%
+📅 Repayment Tenure: 5 years
+
+Please choose an option:
+1. Balance
+2. Transaction History
+3. Send Money
+4. Change Pin
+5. Update Details
+6. Loan Eligibility
+

@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify, render_template, redirect, url_for, session, flash
 import os
 import re
+import random
+import string
+from datetime import datetime, timedelta
 import logging
 import sqlite3
 from dotenv import load_dotenv
@@ -15,9 +18,6 @@ from controllers.banking_controller import (
 from database import get_db_connection
 from models.user import User
 from flask import send_from_directory
-
-
-
 
 # Load environment variables
 load_dotenv()
@@ -38,6 +38,8 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s %(levelname)s:%(message)s'
 )
+
+
 
 @app.route('/')
 def index():
@@ -97,37 +99,67 @@ def signup():
     
     return render_template('signup.html')
 
+@app.route('/generate-otp', methods=['POST'])
+def generate_otp():
+    data = request.get_json()
+    username = data.get('username')
+    password = data.get('password')
+    
+    if not username or not password:
+        return jsonify({'error': 'Username and password are required'}), 400
+    
+    connection = get_db_connection()
+    connection.row_factory = sqlite3.Row
+    cursor = connection.cursor()
+    
+    try:
+        cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
+        user = cursor.fetchone()
+        
+        if user and password == user['password']:
+            # Generate 6-digit OTP
+            otp = ''.join([str(random.randint(0, 9)) for _ in range(6)])
+            session['login_otp'] = otp
+            session['temp_user_data'] = dict(user)
+            return jsonify({'otp': otp})
+        else:
+            return jsonify({'error': 'Invalid username or password'}), 401
+            
+    except Exception as e:
+        return jsonify({'error': 'Error generating OTP'}), 500
+    finally:
+        cursor.close()
+        connection.close()
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username'].strip()
         password = request.form['password'].strip()
+        user_otp = request.form.get('otp')
 
-        connection = get_db_connection()
-        connection.row_factory = sqlite3.Row  # To access columns by name
-        cursor = connection.cursor()
-        try:
-            cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
-            user = cursor.fetchone()
-            if user and password == user['password']:
-                session['user_id'] = user['id']
-                session['username'] = user['username']
-                session['email'] = user['email']  # Store email for transaction notification
-                session['state'] = 'initial'  # Initialize chatbot state
-                logging.info(f"User '{username}' logged in successfully.")
-                return redirect(url_for('dashboard'))
-            else:
-                error = "Invalid username or password. Please try again."
-                logging.warning(f"Failed login attempt for username: {username}")
-                return render_template('login.html', error=error)
-        except Exception as e:
-            connection.rollback()
-            logging.error(f"Error during login: {e}")
-            error = "An error occurred during login. Please try again later."
-            return render_template('login.html', error=error)
-        finally:
-            cursor.close()
-            connection.close()
+        if not user_otp:
+            flash("Please generate and enter OTP")
+            return render_template('login.html')
+
+        stored_otp = session.get('login_otp')
+        temp_user = session.get('temp_user_data')
+
+        if not stored_otp or not temp_user:
+            flash("Please generate OTP first")
+            return render_template('login.html')
+
+        if user_otp == stored_otp:
+            session.clear()
+            session['user_id'] = temp_user['id']
+            session['username'] = temp_user['username']
+            session['email'] = temp_user['email']
+            session['state'] = 'initial'
+            return redirect(url_for('dashboard'))
+        else:
+            flash("Invalid OTP")
+            return render_template('login.html')
+
     return render_template('login.html')
 
 @app.route('/dashboard')

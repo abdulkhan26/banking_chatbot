@@ -40,7 +40,7 @@ class LoanAccount:
             "Personal Loan": 6,  # 6x salary or 6% of turnover
             "Home Loan": 25,  # 25x salary or 12% of turnover
             "Car Loan": 12,  # 12x salary or 8% of turnover
-            "Business Loan": 18  # 18x salary or 15% of turnover
+            "Business Loan": 18  # 18x salary or 18% of turnover
         }
 
         if loan_type not in loan_multipliers:
@@ -63,7 +63,7 @@ class LoanAccount:
             "status": "✅ Approved",
             "loan_type": loan_type,
             "loan_amount": round(max_loan_amount, 2),
-            "message": f"🎉 Congratulations! You are eligible for a {loan_type}. Max loan: ₹{round(max_loan_amount, 2)}."
+            "message": f"🎉 Congratulations! You are eligible for a {loan_type}. Max loan: ₹{round(max_loan_amount, 2)}.Our loan officer will contact you shortly."
         }
 
 
